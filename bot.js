@@ -26,6 +26,7 @@ client.on('message', msg => {
   } 
 });
 
+
 client.on('ready', () => {
     setInterval(function(){ 
         client.guilds.get('369324885677309952').roles.find('name', 'rainbow').edit({color: 'RANDOM'}) // {By !M,S..❤#0254}
