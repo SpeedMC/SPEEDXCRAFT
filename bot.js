@@ -13,13 +13,6 @@ client.on('message', msg => {
   }
 }); 
 
-
-client.on('ready', () => {
-    setInterval(function(){
-        client.guilds.get('447512522128490533').roles.find('name', 'rainbow').edit({color: 'RANDOM'}) // {By !M,S..❤#0254}
-    },100);
-});
-
 client.on('message', msg => {
   if (msg.content === 'ip') {
     msg.reply('play.speedxcraft.com');
