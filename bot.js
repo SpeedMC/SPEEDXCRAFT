@@ -11,7 +11,7 @@ client.on('message', msg => {
   if (msg.content === 'ايبي') {
     msg.reply('play.speedxcraft.com');
   }
-});
+}); 
 
 
 client.on('ready', () => {
