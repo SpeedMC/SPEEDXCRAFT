@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ايبي') {
+  if (msg.content === 'ايبي') { 
     msg.reply('play.speedxcraft.com');
   }
 }); 
