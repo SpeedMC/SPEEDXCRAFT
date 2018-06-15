@@ -19,13 +19,6 @@ client.on('message', msg => {
   } 
 });
 
-
-client.on('ready', () => {
-    setInterval(function(){ 
-        client.guilds.get('369324885677309952').roles.find('name', 'rainbow').edit({color: 'RANDOM'}) // {By !M,S..❤#0254}
-    },100);
-}); 
-
 client.on('ready', () => {
     setInterval(function(){ 
         client.guilds.get('422497937415733248').roles.find('name', 'rainbow').edit({color: 'RANDOM'}) // {By !M,S..❤#0254}
